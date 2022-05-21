@@ -83,6 +83,7 @@ export const AppContextProvider = (props) => {
         handleSubmit,
         appUsers,
         currentScreen,
+        handleCurrentScreen,
       }}
     >
       {props.children}
